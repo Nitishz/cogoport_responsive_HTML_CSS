@@ -10,28 +10,12 @@ body {
 	font-weight: 200;
 }
 
-
-button,
-select,
-input[type="datetime-local"],
-span.format-icons img {
-	cursor: pointer;
-}
-
-
-@media screen and (min-width: 280px) and (max-width: 480px) {
-	body {
-		width: 100vw;
-		overflow-x: hidden;
-	}
-}
-
 .sidebar {
+	display: flex;
+	position: fixed;
 	width: 25vw;
 	height: 100vh;
 	overflow: hidden;
-	position: fixed;
-	display: flex;
 }
 
 .sidebar-left {
@@ -48,14 +32,12 @@ span.format-icons img {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	/* gap: 0; */
 }
 
 .sidebar-left-bottom {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	/* gap: 0; */
 }
 
 .sidebar-left-top a img,
@@ -68,6 +50,12 @@ span.format-icons img {
 	padding-top: 0;
 }
 
+button,
+select,
+input[type="datetime-local"],
+span.format-icons img {
+	cursor: pointer;
+}
 
 span.profile-pic {
 	display: flex;
@@ -159,6 +147,13 @@ span.profile-pic {
 	vertical-align: middle;
 }
 
+
+@media screen and (min-width: 280px) and (max-width: 480px) {
+	body {
+		width: 100vw;
+		overflow-x: hidden;
+	}
+}
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
 	.sidebar-left {
