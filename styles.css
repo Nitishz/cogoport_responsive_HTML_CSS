@@ -309,7 +309,7 @@ p.helping-info {
 }
 
 
-div.card {
+div.update--container {
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
@@ -331,7 +331,7 @@ div.update-info-top {
 	border-bottom: 1px solid #eaecf0;
 }
 
-div.card-btn {
+div.save-change-button {
 	width: 100%;
 	display: flex;
 	justify-content: flex-end;
@@ -428,14 +428,14 @@ label.upload:hover {
 	gap: 8px;
 }
 
-.toggle-label {
+.available {
 	font-weight: 500;
 	font-size: 0.875rem;
 	line-height: 20px;
 	color: #344054;
 }
 
-.toggle-desc {
+.job-speciality {
 	font-weight: 400;
 	font-size: 0.875rem;
 	line-height: 20px;
@@ -539,7 +539,7 @@ div.timezone select {
 		width: 24px;
 		height: 24px;
 	}
-	.card {
+	.update--container {
 		width: 100% !important;
 		margin-top: 5%;
 	}
